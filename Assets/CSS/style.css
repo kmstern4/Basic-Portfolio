@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height:100%;
+    margin: 0;
+}
+
+body{
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    background-image: url(../Images/funky-lines.png);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 72px;
+    border-bottom: 2px #cccccc solid;
+    
+}
+
+h1 {
+    background: #4aaaa5;
+    position: absolute;
+    top: -15px;
+    left: 160px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    font-size: 22px;
+    float: left;
+    height: 70px;
+    width: 160px;
+    padding: 15px;
+    padding-top: 20px;
+}
+
+nav {
+    position: absolute;
+    right: -89px;
+    bottom: -16px;
+    color: #cccccc;
+    margin-right: 200px;
+    padding: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #cccccc;
+    display: inline;
+    padding: 10px;
+}
+
+.content {
+    min-height: 100%;
+    margin: 0;
+}
+
+.contentInside {
+    background: #ffffff;
+    width: 960px;
+    padding: 10px 20px 50px 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #dddddd;
+    color: #777777;
+    line-height: 30px;
+}
+
+h2 {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    color: #4aaaa5;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 20px;
+}
+
+#name, #email {
+    width: 920px;
+    line-height: 30px;
+}
+
+#message {
+    width: 920px;
+}
+
+footer {
+    background: #666666;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+.footer {
+    height: 50px;
+    margin-top: -50px;
+}
