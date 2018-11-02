@@ -154,3 +154,36 @@ footer {
 .myInput {
     margin-bottom: 20px;
 }
+
+h3 {
+    width: 250px;
+    height: 50px;
+    background: #4aaaa5;
+    color: white;
+    position: absolute;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#hangman {
+    top: 110px;
+}
+
+#rpg {
+    top: 110px;
+    left: 340px;
+}
+
+#trivia {
+    top: 110px;
+    right: 42px;
+}
+
+#widget {
+    bottom: -19px;
+}
+
+#rockpaper {
+    left: 340px;
+    bottom: -19px;
+}
