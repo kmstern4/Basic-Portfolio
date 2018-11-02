@@ -18,7 +18,7 @@ header {
     background: #ffffff;
     /* position: relative; */
     width: 100%;
-    height: 71px;
+    height: 72px;
     border-bottom: 2px #cccccc solid;
     
 }
@@ -53,6 +53,15 @@ a {
     color: #cccccc;
     display: inline;
     padding: 10px;
+}
+
+a:hover {
+    color: #4aaaa5;
+    font-size: 18px;
+}
+
+a:active {
+    color: #777777;
 }
 
 .content {
