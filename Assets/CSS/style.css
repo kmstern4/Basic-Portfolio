@@ -86,6 +86,13 @@ h2 {
     padding-bottom: 20px;
 }
 
+.projects {
+    width: 960px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
 #name, #email {
     width: 920px;
     line-height: 30px;
@@ -120,23 +127,28 @@ footer {
 }
 
 #holder1 {
-    position: relative;
+    position: absolute;
 }
 
 #holder2 {
-    position: relative;
+    position: absolute;
+    left: 340px;
 }
 
 #holder3 {
-    position: relative;
+    position: absolute;
+    right: 42px;
 }
 
 #holder4 {
-    position: relative;
+    position: absolute;
+    bottom: -20px;
 }
 
 #holder5 {
-    position: relative;
+    position: absolute;
+    left: 340px;
+    bottom: -20px;
 }
 
 .myInput {
