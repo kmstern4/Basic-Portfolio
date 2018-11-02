@@ -16,7 +16,7 @@ body {
 
 header {
     background: #ffffff;
-    position: relative;
+    /* position: relative; */
     width: 100%;
     height: 72px;
     border-bottom: 2px #cccccc solid;
@@ -27,7 +27,7 @@ h1 {
     background: #4aaaa5;
     position: absolute;
     top: -15px;
-    left: 160px;
+    /* left: 160px; */
     color: #ffffff;
     font-weight: bold;
     font-family: "Georgia", Times, "Times New Roman", serif;
@@ -41,7 +41,7 @@ h1 {
 
 nav {
     position: absolute;
-    right: -89px;
+    right: -248px;
     bottom: -16px;
     color: #cccccc;
     margin-right: 200px;
@@ -70,6 +70,13 @@ a {
     color: #777777;
     line-height: 30px;
     padding-bottom: 20px;
+}
+
+.headerMargin {
+    width: 960px;
+    margin: 0 auto;
+    height: 72px;
+    position: relative;
 }
 
 h2 {
